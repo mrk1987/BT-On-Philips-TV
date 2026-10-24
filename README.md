@@ -15,8 +15,8 @@ the Bluetooth Audio panel itself runs without root.
 - A2DP connected with **AAC**; audio-policy output, encoder PCM reads and audible playback were verified.
 - Manual disconnect returned audio to TV speakers; reconnect and radio toggling worked.
 - The blue remote button opened the panel (confirmed on the physical remote).
-- A repeated launch closed it and returned to the underlying app; physical-button closing still
-  needs separate confirmation. The launcher maps blue to that same launch path.
+- Pressing the physical blue button again while the panel is open closes it (confirmed by the user).
+  Both directions of the blue-button toggle have been verified on the real remote.
 - The panel's generic device selector found the paired audio device. Other audio hardware has not
   been tested. Reboot reconnection and modern Android compatibility are unverified.
 

@@ -12,3 +12,5 @@ No root flash or live TV configuration change was performed while exporting thes
 Known identifiers, personal filesystem paths, private-key headers and token-like strings were checked
 in the tracked-source candidate files. No private firmware images, traces, ADB keys, theme backups or
 device databases are included. This check does not establish compatibility with other TV models.
+
+The user confirmed that the physical blue button both opens the panel and closes it when already open.
