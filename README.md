@@ -4,6 +4,10 @@ I enabled the dormant **A2DP source** profile on a **Philips 43PUS6412/12**, fix
 confirmation, and built a remote-friendly **Bluetooth Audio** panel that slides over the left 40%
 of the screen. The work was done on 2026-10-24, on Android 8.0 / firmware TPM171E_R.107.001.143.000.
 
+![Bluetooth Audio panel on the Philips TV](assets/bluetooth-audio-panel.png)
+
+Actual TV screenshot: the Bluetooth panel covers the left 40% while the settings screen remains visible.
+
 The companion [Root-Philips-TV](https://github.com/mrk1987/Root-Philips-TV) documents how I obtained
 Magisk 25.2 root. Root was used to enable the Bluetooth service component on this firmware;
 the Bluetooth Audio panel itself runs without root.
